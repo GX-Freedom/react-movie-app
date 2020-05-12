@@ -65,7 +65,7 @@ const TVPresenter = ({ getPopular, today, weeklyAir, topRated, getLatest, error,
                                 //         {tv.first_air_date}
                                 //     </OpenDays>
                                 // </Item>
-                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isMovie={false} isAdult={tv.adult === true ? true : false} />
+                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isAdult={tv.adult === true ? true : false} />
                             )}
                         </Section>
                         <Section title="tv 오늘 방영">
@@ -80,7 +80,7 @@ const TVPresenter = ({ getPopular, today, weeklyAir, topRated, getLatest, error,
                                 //         {tv.first_air_date}
                                 //     </OpenDays>
                                 // </Item>
-                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isMovie={false} isAdult={tv.adult === true ? true : false} />
+                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isAdult={tv.adult === true ? true : false} />
                             )}
                         </Section>
                         <Section title="tv 금주 방영 목록">
@@ -95,7 +95,7 @@ const TVPresenter = ({ getPopular, today, weeklyAir, topRated, getLatest, error,
                                 //         {tv.first_air_date}
                                 //     </OpenDays>
                                 // </Item>
-                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isMovie={false} isAdult={tv.adult === true ? true : false} />
+                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isAdult={tv.adult === true ? true : false} />
                             )}
                         </Section>
                         <Section title="tv 평점 높은 순서">
@@ -110,7 +110,7 @@ const TVPresenter = ({ getPopular, today, weeklyAir, topRated, getLatest, error,
                                 //         {tv.first_air_date}
                                 //     </OpenDays>
                                 // </Item>
-                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isMovie={false} isAdult={tv.adult === true ? true : false} />
+                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date} isMovie={false} isAdult={tv.adult === true ? true : false} />
                             )}
                         </Section>
                         <Section title="tv 제작 예정 작품">
@@ -125,7 +125,7 @@ const TVPresenter = ({ getPopular, today, weeklyAir, topRated, getLatest, error,
                                 //         {tv.first_air_date}
                                 //     </OpenDays>
                                 // </Item>
-                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date ? tv.first_air_date : "미정"} isMovie={false} isMovie={false} isAdult={tv.adult === true ? true : false} />
+                                <Poster key={tv.id} id={tv.id} imageUrl={tv.poster_path} title={tv.name} rating={tv.vote_average} year={tv.first_air_date ? tv.first_air_date : "미정"} isMovie={false} isAdult={tv.adult === true ? true : false} />
                             ) : (
                                     // <Item key={getLatest.id}>
                                     //     <Name>
